@@ -1,0 +1,24 @@
+package javaapplication24;
+import java.util.Scanner;
+public class JavaApplication24 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(" enter a word ");
+        String word = input.nextLine();
+        int i;
+        int l = word.length();
+        char chr;
+        int c=0;
+        
+        for(i =0 ; i<l ; i++)
+		{
+		chr=word.charAt(i);
+                if(chr == 'a' ||chr == 'e'||chr == 'i'||chr == 'o'||chr == 'u' )
+		c++;
+		}
+       System.out.println(" total no. of vowels are : " + c );
+    }
+    
+}
+

@@ -1,0 +1,19 @@
+package javaapplication24;
+import java.util.Scanner;
+public class JavaApplication24 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(" enter the width ");
+        int width = input.nextInt();
+        System.out.println(" enter the height ");
+        int height = input.nextInt();
+        if (width >height){
+           System.out.println( "its a landscape");
+          } else if (width < height){
+            System.out.println(" its a portrait");
+        
+    }
+    
+}
+}
